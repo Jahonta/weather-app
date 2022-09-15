@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Weather App</title>
+  </head>
+  <body class="page">
+    <div class="container">
+      <h1 class="page__title">Weather App</h1>
+      <form class="form" action="#">
+        <input
+          class="form__search"
+          type="text"
+          placeholder="Saint Petersburg"
+        />
+        <button class="form__button" type="submit">Go!</button>
+      </form>
+      <article class="card">
+        <div class="left-col">
+          <h2 class="card__title">Saint Petersburg</h2>
+          <time class="card__date" datetime="2022-09-15">15 Sep 2022</time>
+          <div class="card__icon">
+            <img src="img/03d.png" alt="cloads" />
+          </div>
+          <div class="card__degree">13°C</div>
+          <div class="card__weather">Cloads</div>
+        </div>
+        <div class="right-col">
+          <dl class="card__details details">
+            <div class="details__group">
+              <dt>humidity</dt>
+              <dd>73%</dd>
+            </div>
+            <div class="details__group">
+              <dt>wind</dt>
+              <dd>6 m/sec</dd>
+            </div>
+            <div class="details__group">
+              <dt>rain</dt>
+              <dd>1.3 mm</dd>
+            </div>
+            <div class="details__group">
+              <dt>sunrise</dt>
+              <dd>6:26</dd>
+            </div>
+            <div class="details__group">
+              <dt>sunset</dt>
+              <dd>19:20</dd>
+            </div>
+          </dl>
+          <div class="card__toggle toggle">
+            <input
+              class="toggle__radio"
+              type="radio"
+              name="day"
+              id="today"
+              checked
+            />
+            <label class="toggle__label toggle__label--left" for="today"
+              >Today</label
+            >
+            <input
+              class="toggle__radio"
+              type="radio"
+              name="day"
+              id="tomorrow"
+            />
+            <label class="toggle__label toggle__label--right" for="tomorrow"
+              >Tomorrow</label
+            >
+          </div>
+        </div>
+      </article>
+    </div>
+  </body>
+</html>
