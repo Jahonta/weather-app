@@ -186,5 +186,5 @@ html {
 }
 
 .toggle__radio:checked + .toggle__label::after {
-  background-color: #fff;
+  background-color: #ffffff;
 }
