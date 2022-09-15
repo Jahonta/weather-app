@@ -105,8 +105,8 @@ html {
 }
 
 .card__icon img {
-  max-width: 160px;
-  height: auto;
+  width: auto;
+  height: 140px;
 }
 
 .card__degree {
