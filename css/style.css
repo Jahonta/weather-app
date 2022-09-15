@@ -30,6 +30,7 @@ html {
   text-align: center;
   margin-bottom: 32px;
   color: #090435;
+  filter: drop-shadow(5px 5px 12px rgba(0, 0, 0, 0.5));
 }
 
 .form {
@@ -37,6 +38,7 @@ html {
   display: flex;
   background-color: #090435;
   border-radius: 16px;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .form__search {
